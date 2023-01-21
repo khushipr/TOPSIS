@@ -3,15 +3,21 @@
 ### What is TOPSIS?
 Technique for Order Preference by Similarity to Ideal Solution (TOPSIS) came in the 1980s as a multi-criteria-based decision-making (MCDM) method. TOPSIS chooses the alternative of shortest the Euclidean distance from the ideal solution and greatest distance from the negative ideal solution. 
 
-### How to Install this Package?
-` pip install Topsis-Khushi-102183044 `
+___
 
-### How to Run this Package?
-` topsis <inputFileName> <weights> <impacts> <resultFileName> `
+## How to Install this Package?
+``` pip install Topsis-Khushi-102183044 ```
 
-Eg. ` topsis /Users/khushi/Desktop/102183044-data.csv "1,1,1,1,1" "+,+,-,+,+" /Users/khushi/Desktop/result.csv `
+___
 
-### Constraints Applied
+## How to Run this Package?
+``` topsis <inputFileName> <weights> <impacts> <resultFileName> ```
+
+Eg. ``` topsis /Users/khushi/Desktop/102183044-data.csv "1,1,1,1,1" "+,+,-,+,+" /Users/khushi/Desktop/result.csv ```
+
+___
+
+## Constraints Applied
 1. Number of parameters should be correct i.e. 5.
 2. Print error message if input file doesn't exist.
 3. The impacts and weights should be comma separated.
@@ -20,7 +26,9 @@ Eg. ` topsis /Users/khushi/Desktop/102183044-data.csv "1,1,1,1,1" "+,+,-,+,+" /U
 6. The 2nd to last columns should be in numeric data type.
 7. Number of weights, impacts and columns should be equal.
 
-### Input File
+___
+
+## Input File
 | Fund Name  | P1 | P2 | P3 | P4 | P5  |
 | ---------- | -- | -- | -- | -- | --  |
 | M1         |0.75|0.56|6.3 |51.1|14.68|
@@ -31,7 +39,9 @@ Eg. ` topsis /Users/khushi/Desktop/102183044-data.csv "1,1,1,1,1" "+,+,-,+,+" /U
 | M7         |0.69|0.48|3.6 |57.9|15.67|
 | M8         |0.92|0.85|5.7 |31.2|9.67 |
 
-### Output File
+___
+
+## Output File
 | Fund Name  | P1 | P2 | P3 | P4 | P5  | TOPSIS Score | Rank |
 | ---------- | -- | -- | -- | -- | --- | ------------ | ---- |
 | M1         |0.32|0.29|0.39|0.36|0.37 | 0.3655       | 8    |
@@ -43,9 +53,14 @@ Eg. ` topsis /Users/khushi/Desktop/102183044-data.csv "1,1,1,1,1" "+,+,-,+,+" /U
 | M7         |0.29|0.25|0.22|0.41|0.39 | 0.50         | 4    |
 | M8         |0.39|0.44|0.36|0.22|0.24 | 0.53         | 3    |
 
-### License
+___
+
+## License
 MIT
 
-### Written By
+___
+
+## Written By
 Name : Khushi Prasad
+  
 Roll No. : 102183044
