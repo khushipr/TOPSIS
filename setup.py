@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Topsis_Khushi_102183044",
-    version="0.0.6",
+    version="0.0.7",
     author="Khushi Prasad",
     author_email="khushipr01@gmail.com",
     description="Package for calculating topsis score for multiple criteria decision making problems",
