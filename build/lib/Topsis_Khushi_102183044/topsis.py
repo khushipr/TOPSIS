@@ -63,7 +63,7 @@ def checkConstraints():
         else:
             print("Input file does not exist!")
     else:
-        print("Wrong number of arguments provided!")
+        print("Wrong number of agruments provided!")
         return
 
 # Checking the conditions applied on dataset
