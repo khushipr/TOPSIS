@@ -6,14 +6,14 @@ Technique for Order Preference by Similarity to Ideal Solution (TOPSIS) came in 
 ___
 
 ## How to Install this Package?
-> pip install Topsis-Khushi-102183044
+``` pip install Topsis-Khushi-102183044 ```
 
 ___
 
 ## How to Run this Package?
-> topsis <inputFileName> <weights> <impacts> <resultFileName>
+``` topsis <inputFileName> <weights> <impacts> <resultFileName> ```
 
-Eg. > topsis /Users/khushi/Desktop/102183044-data.csv "1,1,1,1,1" "+,+,-,+,+" /Users/khushi/Desktop/result.csv
+Eg. ``` topsis /Users/khushi/Desktop/102183044-data.csv "1,1,1,1,1" "+,+,-,+,+" /Users/khushi/Desktop/result.csv ```
 
 ___
 
